@@ -80,6 +80,8 @@ nav .header-menu {
 }
 .grid-template-areas {
   max-width: 960px;
+  background-color: blue;
+  grid-template-columns: auto;
   display: grid;
   margin: 0 auto;
   grid-template-areas:
@@ -91,6 +93,7 @@ nav .header-menu {
   margin: 10px;
   background-color: red;
   padding: 50px;
+  text-align: end;
 }
 .headeer {
   grid-area: headeer;
