@@ -90,6 +90,7 @@ nav .header-menu {
 .item {
   margin: 10px;
   background-color: red;
+  padding: 50px;
 }
 .headeer {
   grid-area: headeer;
