@@ -14,7 +14,7 @@ img {
   max-width: 100%;
 }
 .header-bg {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(17, 17, 17);
 }
 .header {
   display: flex;
@@ -43,7 +43,7 @@ nav .header-menu {
   margin-right: 10px;
 }
 .header a {
-  color: rgb(253, 253, 253);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -76,6 +76,33 @@ nav .header-menu {
   text-align: center;
   font-size: 2.25em;
   font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.about {
+  margin-top: 60px;
+  border-top: 2px solid blue;
+}
+.about h1 {
+  margin-top: 40px;
+}
+.about-text {
+  background-color: rgba(128, 128, 128, 0.199);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+}
+.about-text span {
+  color: blue;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 2px;
+  font-weight: bold;
+}
+.about-text p {
+  font-size: 1.3em;
+  font-weight: bold;
   font-style: italic;
 }
 .grid-template-areas {
