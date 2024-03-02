@@ -134,3 +134,28 @@ nav .header-menu {
 .footer {
   grid-area: footer;
 }
+.grid {
+  max-width: 600px;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+}
+.item1 {
+  padding: 10px;
+  color: blueviolet;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+.item2 {
+  padding: 10px;
+  color: blueviolet;
+  grid-column: 2;
+}
+.item3 {
+  padding: 10px;
+  color: blueviolet;
+  grid-column: 2;
+  text-align: end;
+}
